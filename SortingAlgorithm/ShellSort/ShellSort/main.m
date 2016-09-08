@@ -33,7 +33,7 @@ void shellsort(int *data, int size)
         
         data[j+d] = data[j];
       }
-      //把当前组第一个值付在合适的位置上, 这样步长为1的时候就排完了
+      //把当前组第一个值付在合适的位置上, 这样步长为1的时候就排完 了
       data[j+d] = key;
     }
 }
